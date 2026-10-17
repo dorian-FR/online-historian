@@ -1,0 +1,124 @@
+body {position: relative; left: 20px;
+}
+
+p {
+font-size: 125%;}
+
+ul{
+font-size: 125%;}
+
+i {
+	font-size:125%}
+	
+.hero {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 20px;
+}
+
+.hero-photo {
+	width:60%;
+	}
+
+.hero-link {
+	gap:50px;
+	}
+
+.FFphoto {
+	width:100%;
+	height:auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+	
+.researches {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom:40px;
+}
+
+.researches-text {
+	flex: 1;
+  min-width: 0;
+  }
+
+.photo-researches {
+	width:550px;
+	height:auto;
+}
+
+.localisation-pics {}
+
+.photo-localisation {
+	width:550px;
+	height:auto;
+}
+
+.localisation {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  padding-bottom:40px;
+}
+
+.thesis-text {
+	padding-right:40px;
+	}
+
+.localisation-text {
+	flex: 1;
+  min-width: 0;
+  }
+
+.subs{display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap:-20px;}
+  
+.thesis-whole {
+display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+  
+.profile-gmail-icon {
+	max-width:400px;
+	width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+.wrapper-gmail {
+	display: flex;
+	align-items: center;
+	gap:30px;
+}
+
+.intro-email {flex:0;
+font-size: 130%;}
+
+.profile-whatsapp-icon {
+    max-width:400px;
+	width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+.wrapper-whatsapp {
+	display: flex;
+	align-items: center;
+	gap:30px;
+}
+
+.intro-whatsapp {flex:0;
+white-space: nowrap;
+font-size: 130%;}
